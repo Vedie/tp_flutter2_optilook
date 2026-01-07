@@ -1,16 +1,17 @@
-# tp_flutter_optilook
+# TP Flutter - Application OptiLook 🕶️
 
-A new Flutter project.
+## 📝 Présentation du projet
+Ce projet est une application e-commerce de lunettes. L'objectif est de répondre aux exigences du TP concernant l'authentification, la persistance des données et la gestion des produits.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## ⚙️ Fonctionnalités implémentées
+- **Authentification complète** :
+  - Connexion et Inscription via **Email/Mot de passe**.
+  - Connexion via **Google**.
+  - Connexion via **X**
+- **Stockage Local (Shared Preferences)** :
+  - Sauvegarde de la session utilisateur.
+  - Mémorisation de l'email pour affichage personnalisé.
+- **Catalogue de Produits** :
+  - Affichage dynamique des produits.
+  - Barre de recherche fonctionnelle pour filtrer les modèles en temps réel.
+  - Menu permettant de lister et d'ajouter des produits.
