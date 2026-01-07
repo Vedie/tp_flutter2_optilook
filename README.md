@@ -15,3 +15,7 @@ Ce projet est une application e-commerce de lunettes. L'objectif est de répondr
   - Affichage dynamique des produits.
   - Barre de recherche fonctionnelle pour filtrer les modèles en temps réel.
   - Menu permettant de lister et d'ajouter des produits.
+# Ce Tp  été réalisé en groupe de 3 :
+    - ** Nkura Kikakala Winner **
+    - ** Luthomo Ibele Blessing **
+    - ** Wasso Kisembe Victorina **
