@@ -20,7 +20,7 @@ Le catalogue est entièrement synchronisé en temps réel avec **Cloud Firestore
 - Feedback visuel lors du chargement des données.
 
 ## 👥 Équipe de développement (Groupe 3)
-Ce projet a été réalisé individuellement par les membres du groupe suivant :
+Ce projet a été réalisé  par les membres du groupe suivant :
 - **Nkura Kikakala Winner**
 - **Luthomo Ibele Blessing**
 - **Wasso Kisembe Victorina**
