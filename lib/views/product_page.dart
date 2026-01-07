@@ -79,7 +79,7 @@ class _ProductPageState extends State<ProductPage> {
     );
   }
 
-  // --- HEADER ---
+  // header
   Widget _buildStyledHeader() {
     return Container(
       width: double.infinity,
@@ -107,7 +107,7 @@ class _ProductPageState extends State<ProductPage> {
     );
   }
 
-  // --- BARRE DE RECHERCHE ---
+  // Barre de recherche
   Widget _buildSearchBar() {
     return Transform.translate(
       offset: const Offset(0, -25),
@@ -129,7 +129,7 @@ class _ProductPageState extends State<ProductPage> {
     );
   }
 
-  // --- CARTE PRODUIT (Lister + Modifier + Supprimer) ---
+  // Carte produit (Lister + Modifier + Supprimer)
   Widget _buildProductCard(Product p) {
     return Container(
       decoration: BoxDecoration(color: Colors.white, borderRadius: BorderRadius.circular(20), boxShadow: const [BoxShadow(color: Colors.black12, blurRadius: 5)]),
@@ -180,13 +180,13 @@ class _ProductPageState extends State<ProductPage> {
       onTap: onTap,
       child: Container(
         padding: const EdgeInsets.all(4),
-        decoration: BoxDecoration(color: Colors.white.withOpacity(0.8), shape: BoxShape.circle),
+        decoration: BoxDecoration(color: Colors.white, shape: BoxShape.circle),
         child: Icon(icon, color: color, size: 18),
       ),
     );
   }
 
-  // --- DIALOGUE AJOUT ---
+  // dialogue ajout
   void _showAddProductDialog() {
     final nameCtrl = TextEditingController();
     final priceCtrl = TextEditingController();
@@ -200,7 +200,6 @@ class _ProductPageState extends State<ProductPage> {
     });
   }
 
-  // --- DIALOGUE MODIFICATION ---
   void _showEditProductDialog(Product p) {
     final nameCtrl = TextEditingController(text: p.name);
     final priceCtrl = TextEditingController(text: p.price);
@@ -208,8 +207,7 @@ class _ProductPageState extends State<ProductPage> {
       FirebaseFirestore.instance.collection('produits').doc(p.id).update({'name': name, 'price': price});
     });
   }
-
-  // --- HELPER DIALOG ---
+  // Boite de dialogue
   void _showDialog(String title, String btnText, TextEditingController nCtrl, TextEditingController pCtrl, Function(String, String) onSuccess) {
     showDialog(
       context: context,
